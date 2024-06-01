@@ -16,7 +16,7 @@ type PokemonRowProps = {
         <div className="py-2">
         <p className="bg-black text-center text-white font-semibold rounded-xl px-2 w-[5rem]">ID: {id}</p>
         <h1 className="font-bold capitalize md:text-[2rem] text-[1.5rem]">{name}</h1>
-        <p className="text-semibold md:text-[1.5rem] text-[1rem] text-red-500 ">{types.join(', ')}</p>
+        <p className="text-semibold md:text-[1.5rem] text-[1rem] text-black  ">{types.join(', ')}</p>
         </div>
       </div>
         </div>

@@ -33,7 +33,7 @@ const PokedexPage: React.FC = () => {
   
 
   return (
-    <div className="w-screen h-screen bg-black/20">
+    <div className="bg-no-repeat bg-cover bg-center bg-[url('https://static1.thegamerimages.com/wordpress/wp-content/uploads/Pokemon-game-series.jpg')] h-screen w-full">
       <form className="flex flex-wrap gap-2 justify-center items-center gap-x-3 py-5" onSubmit={handleSubmit}>
         <input
           type="text"
